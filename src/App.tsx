@@ -21,7 +21,9 @@ function App() {
         window.history.pushState(null, "", `/#/${key}`)
         setCurrentPage(key)
     }
-    const [currentPage, setCurrentPage] = useState("home")
+    const defaultPage = document.location.hash.replace(/#\/?/, "");
+
+    const [currentPage, setCurrentPage] = useState(defaultPage || "home")
 
     let CurrentPage = routeMap.get(currentPage) || Home
 
