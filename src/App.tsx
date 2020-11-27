@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./pages/home/Home";
 import HelloWorld from "./pages/hello/HelloWorld";
 import ChatApp from "./pages/chat/ChatApp";
+import CommentBox from "./pages/comment-box/CommentBox";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -13,6 +14,7 @@ const routeMap = new Map([
     ["home", Home],
     ["hello-world", HelloWorld],
     ["chat", ChatApp],
+    ["common-box", CommentBox],
 ])
 
 

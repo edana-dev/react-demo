@@ -4,7 +4,7 @@ export interface MessageListProps {
     messages: string[];
 }
 
-const MessageList: React.FunctionComponent<MessageListProps> = (props: MessageListProps = {messages: []}): JSX.Element => {
+const MessageList = (props: MessageListProps = {messages: []}) => {
     props = props || []
     return (
         <ul>
