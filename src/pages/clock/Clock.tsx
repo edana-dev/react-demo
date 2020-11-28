@@ -12,7 +12,7 @@ const Clock = () => {
             console.log("component will unmount")
             clearInterval(timeId)
         }
-    })
+    }, [])
     return (
         <div>
             <h1>Hello, World!</h1>
