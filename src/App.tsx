@@ -6,6 +6,7 @@ import ChatApp from "./pages/chat/ChatApp";
 import CommentBox from "./pages/comment-box/CommentBox";
 import Clock from "./pages/clock/Clock";
 import PureRedux from "./pages/pure-redux/PureRedux";
+import Counter from "./pages/counter/Counter"
 
 const styles = {
     fontFamily: "sans-serif",
@@ -19,6 +20,7 @@ const routeMap = new Map([
     ["comment-box", CommentBox],
     ["clock", Clock],
     ["pure-redux", PureRedux],
+    ["counter", Counter],
 ])
 
 
