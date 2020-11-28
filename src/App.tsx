@@ -4,6 +4,8 @@ import Home from "./pages/home/Home";
 import HelloWorld from "./pages/hello/HelloWorld";
 import ChatApp from "./pages/chat/ChatApp";
 import CommentBox from "./pages/comment-box/CommentBox";
+import Clock from "./pages/clock/Clock";
+import PureRedux from "./pages/pure-redux/PureRedux";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -14,7 +16,9 @@ const routeMap = new Map([
     ["home", Home],
     ["hello-world", HelloWorld],
     ["chat", ChatApp],
-    ["common-box", CommentBox],
+    ["comment-box", CommentBox],
+    ["clock", Clock],
+    ["pure-redux", PureRedux],
 ])
 
 

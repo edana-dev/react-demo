@@ -58,8 +58,8 @@ const CommentBox = () => {
     return (
         <div className="comment-box">
             <h1>Comments ({comments.length})</h1>
-            <CommentList comments={comments}/>
-            <CommentForm/>
+            <CommentList key="comment-list" comments={comments}/>
+            <CommentForm key="comment-form"/>
         </div>
     );
 }
