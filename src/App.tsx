@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {Component, useState} from 'react';
 import './App.css';
 import Home from "./pages/home/Home";
 import HelloWorld from "./pages/hello/HelloWorld";
 import ChatApp from "./pages/chat/ChatApp";
 import CommentBox from "./pages/comment-box/CommentBox";
 import Clock from "./pages/clock/Clock";
+import Clock2 from "./pages/hoc/Clock2";
+import Clock3 from "./pages/hoc/Clock3";
 import PureRedux from "./pages/pure-redux/PureRedux";
 import Counter from "./pages/counter/Counter"
 
@@ -13,12 +15,14 @@ const styles = {
     paddingLeft: "250px",
 };
 
-const routeMap = new Map([
+const routeMap = new Map<string, any>([
     ["home", Home],
     ["hello-world", HelloWorld],
     ["chat", ChatApp],
     ["comment-box", CommentBox],
     ["clock", Clock],
+    ["clock2", Clock2],
+    ["clock3", Clock3],
     ["pure-redux", PureRedux],
     ["counter", Counter],
 ])
