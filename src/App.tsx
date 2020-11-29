@@ -9,6 +9,7 @@ import Clock2 from "./pages/hoc/Clock2";
 import Clock3 from "./pages/hoc/Clock3";
 import PureRedux from "./pages/pure-redux/PureRedux";
 import Counter from "./pages/counter/Counter"
+import LocaleSample from "./pages/locale-sample/LocaleSample";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -25,6 +26,7 @@ const routeMap = new Map<string, any>([
     ["clock3", Clock3],
     ["pure-redux", PureRedux],
     ["counter", Counter],
+    ["locale-sample", LocaleSample],
 ])
 
 
