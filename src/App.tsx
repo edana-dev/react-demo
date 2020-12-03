@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Home from "./pages/home/Home";
 import HelloWorld from "./pages/hello/HelloWorld";
@@ -10,6 +10,7 @@ import Clock3 from "./pages/hoc/Clock3";
 import PureRedux from "./pages/pure-redux/PureRedux";
 import Counter from "./pages/counter/Counter"
 import LocaleSample from "./pages/locale-sample/LocaleSample";
+import FormSubmit from "./pages/form/FormSubmit";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -27,6 +28,7 @@ const routeMap = new Map<string, any>([
     ["pure-redux", PureRedux],
     ["counter", Counter],
     ["locale-sample", LocaleSample],
+    ["form-submit", FormSubmit],
 ])
 
 
