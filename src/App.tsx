@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './App.css';
+import './App.less';
 import Home from "./pages/home/Home";
 import HelloWorld from "./pages/hello/HelloWorld";
 import ChatApp from "./pages/chat/ChatApp";
@@ -11,6 +11,8 @@ import PureRedux from "./pages/pure-redux/PureRedux";
 import Counter from "./pages/counter/Counter"
 import LocaleSample from "./pages/locale-sample/LocaleSample";
 import FormSubmit from "./pages/form/FormSubmit";
+import FormSubmitAntd from "./pages/form/FormSubmitAntd";
+import AntdDemo from "./pages/antd/AntdDemo";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -29,6 +31,8 @@ const routeMap = new Map<string, any>([
     ["counter", Counter],
     ["locale-sample", LocaleSample],
     ["form-submit", FormSubmit],
+    ["form-submit-antd", FormSubmitAntd],
+    ["antd-demo", AntdDemo],
 ])
 
 

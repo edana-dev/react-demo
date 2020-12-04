@@ -16,7 +16,7 @@ const LocaleProvider = (props: any) => {
     const [stateLocale, setStateLocale] = useState(enStrings);
 
     const toggleLocale = () => {
-        const locale = stateLocale == enStrings ? cnStrings : enStrings
+        const locale = stateLocale === enStrings ? cnStrings : enStrings
         setStateLocale(locale)
     }
 

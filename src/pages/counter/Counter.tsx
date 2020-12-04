@@ -1,6 +1,4 @@
-import React, {Dispatch, useReducer} from "react";
-import {bindActionCreators, createStore} from "redux";
-import {Provider} from "react-redux";
+import React, {useReducer} from "react";
 
 export interface ICounterAction {
     type: string
